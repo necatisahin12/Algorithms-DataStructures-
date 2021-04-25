@@ -15,9 +15,9 @@ Write a function that takes an unsigned integer and returns the number of '1' bi
 
 Answer
 --
-   
-            
-      public int hammingWeight(int n) {
+
+```java
+public int hammingWeight(int n) {
         int count=0;
         for(int i=0;i<32;i++){
         if(((n>>i)&1)==1){
@@ -25,7 +25,10 @@ Answer
             }  
         }
         return count;        
-    }
+    } 
+```
+           
+     
    
 Explanation
 --
@@ -39,6 +42,8 @@ Lets think in brute force , we have to convert 11 to binary ,
 
 Integer.toBinaryString(11)  ==1011 
 or
+
+``` java
 public  static  void toBinary(int decimal){
  int binary[] = new  int[40];
  int index = 0;
@@ -51,8 +56,11 @@ public  static  void toBinary(int decimal){
   }
   System.out.println();//new line
   }
+  ```
  
-    public int hammingWeight(int n) {
+ 
+```java
+ public int hammingWeight(int n) {
         int count=0;
         String nBinaryString = Integer.toBinaryString(n);
         char [] carr =nBinaryString.toCharArray();
@@ -63,6 +71,7 @@ public  static  void toBinary(int decimal){
         }
         return count;   
     }
+   ```
     
 
   
@@ -84,7 +93,7 @@ Truth table
 **Time Complexity:** O(1)
 
    
-            
+      ``` java      
       public int hammingWeight(int n) {
         int count=0;
         for(int i=0;i<32;i++){
@@ -94,6 +103,7 @@ Truth table
         }
         return count;        
     }
+```
 ![Screenshot_2](https://user-images.githubusercontent.com/34276366/115992222-36be7280-a5d5-11eb-872c-363f20f1b197.png)
 
 
