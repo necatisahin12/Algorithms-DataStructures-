@@ -104,7 +104,8 @@ Truth table
         return count;        
     }
 ```
-![Screenshot_2](https://user-images.githubusercontent.com/34276366/115992222-36be7280-a5d5-11eb-872c-363f20f1b197.png)
+![Screenshot_3](https://user-images.githubusercontent.com/34276366/116012320-854e2a00-a632-11eb-9e33-744f2a244371.png)
+
 
 
 ![two-input-and-gate-truth-table](https://user-images.githubusercontent.com/34276366/116000730-0dfca400-a5fa-11eb-9a6a-75464c3a1692.jpg)
